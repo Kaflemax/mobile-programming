@@ -1,8 +1,35 @@
 <!DOCTYPE html>
 <html>
+<style>
+.players{
+  background-color: skyblue;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+</html>
 <body>
 <h2>First question using div tag</h2>
 <div id="demo">My name is shisir kafle</div>
 <button type = "button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+
+<h2>This is question no 2</h2>
+<div class="players">
+  <h2>Bellingham</h2>
+  <p>Bellingham is born in England.</p>
+</div>
+
+<div class="players">
+  <h2>Camavinga</h2>
+  <p>Camavinga is born in France</p>
+</div>
+
+<div class="players" id="minamino">
+  <h2>Minamino</h2>
+  <p>Minamino is born in Japan</p>
+</div>
+<button type = "button" onclick = "document.getElementById('minamino').style.display='none'">Hide Minamino</button>
 </body>
 </html>
